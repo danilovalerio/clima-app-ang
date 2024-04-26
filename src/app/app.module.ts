@@ -10,9 +10,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { WheaterHomeComponent } from './modules/wheater/page/wheater-home/wheater-home.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, WheaterHomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
