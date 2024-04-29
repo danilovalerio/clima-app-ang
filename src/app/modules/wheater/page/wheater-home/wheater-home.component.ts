@@ -10,6 +10,7 @@ import { error } from 'console';
 })
 export class WheaterHomeComponent implements OnInit {
   initialCityName = 'São Paulo';
+  weatherDatas!: any;
 
   constructor(private weatherService: WeatherService) {}
 
