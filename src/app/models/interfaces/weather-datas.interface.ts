@@ -1,4 +1,4 @@
-export interface WeatherDatas {
+export interface IWeatherDatas {
   coord: {
     lon: number;
     lat: number;
